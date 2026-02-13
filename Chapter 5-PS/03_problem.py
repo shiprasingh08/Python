@@ -1,0 +1,8 @@
+#Can we have a set with 18(int) and "18"(string) as elements?
+s = {18, "18"}
+print(s)
+
+s = set()
+s.add(18)
+s.add("18")
+print(s)
